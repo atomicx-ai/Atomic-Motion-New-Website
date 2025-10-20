@@ -1,0 +1,7 @@
+<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.8" d="M0.5 10.5L0.5 2.5C0.5 1.39543 1.39543 0.5 2.5 0.5L10.5 0.500001" stroke="#F8F8F8"/>
+<path opacity="0.8" d="M0.5 18.5L0.5 26.5C0.5 27.6046 1.39543 28.5 2.5 28.5L10.5 28.5" stroke="#F8F8F8"/>
+<path opacity="0.8" d="M28.5 10.5L28.5 2.5C28.5 1.39543 27.6046 0.5 26.5 0.5L18.5 0.500001" stroke="#F8F8F8"/>
+<path opacity="0.8" d="M28.5 18.5L28.5 26.5C28.5 27.6046 27.6046 28.5 26.5 28.5L18.5 28.5" stroke="#F8F8F8"/>
+<circle cx="14.5" cy="14.5" r="3" fill="#F8F8F8"/>
+</svg>

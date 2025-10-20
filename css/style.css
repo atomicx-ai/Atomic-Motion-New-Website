@@ -1,0 +1,99 @@
+.Slider {
+    background: transparent;
+}
+.next-button:after{
+    content: "";
+    display: none;
+}
+.previous-button:after{
+    content: "";
+    display: none;
+}
+
+#btn-svg-f{
+    height:6rem;
+    width:9rem;
+    border-radius: 25px 0px 0px 25px;
+
+}
+#btn-svg-s{
+    height:6rem;
+    width:9rem;
+     border-radius: 0px 25px 25px 0px;
+   
+}
+
+.custmize-img{
+    width:100%;
+    height:auto;
+    padding-left:0px;
+    padding-right:0px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  width:75%;
+  height: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left:inherit;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+     right:0px;
+}
+
+
+
+/* tab slider responsiveness start from here */
+
+@media(max-width:1024px){
+    #btn-svg-f{
+    height:5rem;
+    width:5rem;
+}
+#btn-svg-s{
+    height:5rem;
+    width:5rem;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left:inherit;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+     right:0px;
+}
+}
+
+
+/* mobile slider responsivenes start */
+
+@media(max-width:769px){
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left:inherit;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+     right:0px;
+}
+
+  #btn-svg-f{
+    height:5vh;
+    width:9vw;
+}
+#btn-svg-s{
+    height:5vh;
+    width:9vw;
+}
+#btn-svg-f img{
+    width:5vw;
+}
+#btn-svg-s img{
+    width:5vw;
+}
+
+}
